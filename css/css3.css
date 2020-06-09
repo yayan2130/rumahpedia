@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.rpheader {
+    background-image: url("../gambar/background.jpg");
+    background-size: cover;
+}
+
+.bar-item {
+    color: #ffffff;
+    padding: 10px;
+}
+
+.bar-item:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.header {
+    padding-top: 35px;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    z-index: 999;
+}
+
+.header-right {
+    display: block;
+    float: right;
+    padding: 6px 20px;
+}
+
+.logo {
+    padding-left: 0;
+    padding-top: 0px;
+}
+
+.judul {
+    padding-bottom: 10px;
+}
+
+.judul-kiri {
+    text-align: left;
+    margin-left: 100pt;
+}
+
+.judul-tengah {
+    text-align: center;
+    margin-left: 100pt;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.kuning {
+    font-weight: 300;
+    color: yellow;
+    font-weight: bold;
+}
+
+.header-judul {
+    text-align: left;
+    margin-left: 20pt;
+    padding-top: 50px;
+    color: white;
+}
+
+.header-subjudul {
+    text-align: left;
+    margin-left: 20pt;
+}
+
+.btn-cari {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: black;
+    border-radius: 15px;
+    border: 1px solid white;
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    margin: 30px auto;
+}
+
+.btn-cari:hover {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    -webkit-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
+    -moz-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
+    box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
+}
+
+.btn-masuk {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: yellow;
+    border-radius: 15px;
+    border: 1px solid black;
+    width: 100px;
+    height: 40px;
+    color: black;
+    font-weight: bold;
+    margin: 30px auto;
+}
+
+.btn-masuk:hover {
+   background-color: yellow;
+    color: black;
+    border-radius: 20px;
+    -webkit-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
+    -moz-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
+    box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
+}
+
+.combox {
+    font-size: 15px;
+    color: black;
+    width: 400px;
+    background: white;
+    height: 40px;
+    border-radius: 15px;
+    padding: 0 20px 0 20px;
+    text-align: left;
+    margin-top: 6px;
+}
+input[type=radio]{
+    height: 25px;
+    margin-top: 15px;
+}
+.fotorumah{
+    float: left;
+    width: 15%;
+    margin-top: 3px;
+}
+
+input[type=file]{
+    font-size: 15px;
+    color: white;
+    width: 250px;
+    height: 40px;
+    padding: 0 20px 0 20px;
+    text-align: left;
+    margin-top: 19px;
+
+}
+
+
+.judul-kanan {
+    text-align: right;
+    margin-right: 20pt;
+}
+
+.header-subjudul2 {
+    margin: 0;
+    color: yellow;
+}
+
+.white {
+    color: white;
+}
+
+.kurangkiri{
+    margin-left: 20pt;
+}
+
+.base {
+    margin-left: 110pt;
+}
+
+label{
+    color: white;
+}
+
+
+/*form*/
+
+.col-25 {
+  float: left;
+  width: 15%;
+  margin-top: 15px;
+}
+
+.kanan {
+    text-align: right;
+    margin-right: 100pt;
+}
